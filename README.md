@@ -1,3 +1,4 @@
+
 # Sleep Sage
 
 > Turn Dreams Into Insight.
@@ -49,39 +50,39 @@ App Icon:
 ---
 
 ## Repo Structure (Planned)
-/
-├── branding/           # Logos, icons, colors, style guides
-│   ├── logo-color.svg
-│   ├── logo-icon.svg
-│   ├── favicon.ico
-│   ├── BRANDING.md
-│   └── sleep_sage_icon_512x512.png
-│
-├── public/             # Static assets for the app
-│   ├── favicon.ico
-│   ├── manifest.json
-│   └── app-icons/     # Generated PNGs for app stores
-│       ├── icon-16x16.png
-│       ├── icon-32x32.png
-│       └── etc...
-│
-├── src/                # App source code
-│   ├── components/    # Reusable UI components
-│   ├── pages/         # Page routes
-│   ├── lib/           # Utility functions, API handlers
-│   ├── styles/        # Tailwind config, global styles
-│   └── types/         # TypeScript types (optional)
-│
-├── docs/               # Planning, strategy, notes
-│   ├── TODO.md
-│   ├── STRUCTURE.md
-│   └── architecture.md
-│
-├── .gitignore
-├── README.md
-└── LICENSE
 
+```
+/branding/          # Logos, icons, colors, style guides
+├── logo-color.svg
+├── logo-icon.svg
+├── favicon.ico
+├── BRANDING.md
+└── sleep_sage_icon_512x512.png
 
+/public/            # Static assets for the app
+├── favicon.ico
+├── manifest.json
+└── app-icons/
+    ├── icon-16x16.png
+    ├── icon-32x32.png
+    └── etc...
+
+/src/               # App source code
+├── components/     # Reusable UI components
+├── pages/          # Page routes
+├── lib/            # Utility functions, API handlers
+├── styles/         # Tailwind config, global styles
+└── types/          # TypeScript types (optional)
+
+/docs/              # Planning, strategy, notes
+├── TODO.md
+├── STRUCTURE.md
+└── architecture.md
+
+.gitignore
+README.md
+LICENSE
+```
 
 ---
 
@@ -100,7 +101,7 @@ Next:
 
 ## Contributing
 
-This is a solo-first project but clean enough for future collaboration. PRs welcome if you're weird and into dream stuff.
+See `CONTRIBUTING.md`
 
 ---
 
