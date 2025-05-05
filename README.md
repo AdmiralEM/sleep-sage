@@ -45,7 +45,7 @@ This is your personal dream guide — built to be elegant, minimal, dark-mode-fi
 See `BRANDING.md` for full style guide.
 
 App Icon:  
-![Sleep Sage Icon](./sleep_sage_icon_512x512.png)
+![Sleep Sage Icon](./branding/sleep_sage_icon_512x512.png)
 
 ---
 
@@ -108,12 +108,6 @@ See `CONTRIBUTING.md`
 ## License
 
 GPL — because fuck walled gardens.
-
----
-
-## Credits
-
-Built by [Emerson] with a healthy amount of sleep deprivation and existential wonder.
 
 ---
 
