@@ -1,16 +1,17 @@
-
 {
-  "name": "Sleep Sage Dev Environment",
+  "name": "sleep-sage",
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
   "workspaceFolder": "/workspace",
-  "settings": {
-    "terminal.integrated.defaultProfile.linux": "bash"
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "prisma.prisma",
+        "bradlc.vscode-tailwindcss",
+        "supabase.supabase-vscode",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
   },
-  "extensions": [
-    "prisma.prisma",
-    "bradlc.vscode-tailwindcss",
-    "supabase.supabase-vscode",
-    "dbaeumer.vscode-eslint"
-  ]
+  "postCreateCommand": "./setup.sh"
 }
